@@ -3,8 +3,7 @@ function[Data] = LEO_readFromExcel(fileName,type)
 
 % Reads VT values from an excel file, and 
 % creates a MATLAB structure compatible with LEO.m 
-% filename: string holding the excel file
-% type: either "BB" or "TrT", for "baseline-block" or "Test-reTest", resp.
+% type is either "BB" or "TrT"
 
 [nums,strngs] = xlsread(fileName);
 

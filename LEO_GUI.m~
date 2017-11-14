@@ -21,20 +21,15 @@
 % Analysis 115, 199-223. 
 % 
 % For some mac-users, the standard routine to print data into an excel 
-% file doesn?t work well. If you use a mac, download the file cell2csv.m 
-% from 
-% https://www.mathworks.com/matlabcentral/fileexchange/7601-cell2csv?focused=5063322&tab=function 
-% and add it to the MATLAB path. 
+% file doesn?t work well. If you use a mac, download the file cell2csv.m from https://www.mathworks.com/matlabcentral/fileexchange/7601-cell2csv?focused=5063322&tab=function and add it to the MATLAB path. 
 % 
-% To launch the graphical user interface, please make sure all files are 
-% in the MATLAB path. In the prompt, type:
+% To launch the graphical user interface, please make sure all files are in the MATLAB path. In the prompt, type:
 % >>LEO_GUI
 % 
 % To bypass the graphical interface, please see comments in LEO.m
 % 
-% For comments or questions regarding this code, please contact
-% Martin Schain.
-%% ------------------- %%
+% For comments or questions regarding this code, please contact Martin Schain.
+
 
 
 function varargout = LEO_GUI(varargin)
