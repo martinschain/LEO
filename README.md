@@ -21,4 +21,9 @@ In this repository, you will also find two sample excel files. To execute LEO wi
 
 If you don’t have test-retest data available, you can only run LEO using the Identity matrix in place of the covariance matrix. In the output file, you will also obtain estimates of V_ND and occupancy calculated with Lassen plot. 
 
+To launch the graphical user interface, please make sure all files are in the MATLAB path. In the prompt, type:
+>>LEO_GUI
+
+To bypass the graphical interface, please see comments in LEO.m
+
 For comments or questions regarding this code, please contact Martin Schain.
